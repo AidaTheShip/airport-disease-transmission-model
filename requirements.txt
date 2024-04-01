@@ -1,0 +1,7 @@
+numpy
+pandas 
+random
+matplotlib.pyplot
+networkx[default]
+FlightRadar24
+pygraphviz
