@@ -7,7 +7,7 @@ import networkx as nx
 
 
 
-with open('/content/reporting_carrier_ontimeperformance.csv') as cp:
+with open('reporting_carrier_ontimeperformance.csv') as cp:
     ontime = pd.read_csv(cp)
 
 ontime = ontime[['Year', 'Quarter', 'Month', 'DayofMonth', 'DayOfWeek', 'FlightDate', 'Reporting_Airline', 'DOT_ID_Reporting_Airline', 'IATA_CODE_Reporting_Airline', 'Tail_Number', 'Flight_Number_Reporting_Airline', 'OriginAirportID', 'OriginAirportSeqID', 'OriginCityMarketID', 'Origin', 'OriginCityName', 'OriginState', 'OriginStateName', 'DestAirportID', 'DestAirportSeqID', 'DestCityMarketID', 'Dest', 'DestCityName', 'DestState', 'DestStateName', 'CRSDepTime', 'DepTime', 'CRSArrTime', 'ArrTime', 'Cancelled', 'CRSElapsedTime', 'ActualElapsedTime', 'AirTime', 'Flights', 'Distance', 'DistanceGroup']]
